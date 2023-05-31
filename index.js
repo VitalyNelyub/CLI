@@ -5,7 +5,8 @@ const workWithContacts = async ({ action, id, name, email, phone }) => {
   switch (action) {
     case "read":
       const allContacts = await contacts;
-      console.log("ALL CONTACTS", allContacts);
+          console.log("ALL CONTACTS", allContacts);
+          console.log('object')
       return allContacts;
   }
 };
